@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 20rem;
+    height: 65px;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #fcbf49;
+    font-size: 18px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    order: 5;
+}
+
+header nav ul li{
+    padding: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fcbf49;
+    text-transform: uppercase;
+    border: solid 1px #fcbf49;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover{
+    color: white;
+    background-color: #ffd166;
+}
+
+/*MAIN*/
+.principal{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/tienda.jpg);
+    width: 100%;
+    height: 60vh;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+display:flex;
+flex-shrink; 1;
+}
+
+.hero h2{
+    color: #fcbf49;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.hero div p{
+    color: black;
+    margin: 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    display: flex;
+    align-content: center;
+}
+
+.informacion h2{
+    color: #fcbf49;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.informacion div p{
+    color: black;
+    margin: 70px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    display: flex;
+    align-content: center;
+}
+
+.info h2{
+    color: #fcbf49;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.info div p{
+    color: black;
+    margin: 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    display: flex;
+    align-content: center;
+}
+
+/*FOOTER*/
+footer h2{
+    color: #fcbf49;
+    font-size: large;
+    font-weight: 150;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+footer img{
+    margin: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+
+footer img:hover{
+    transform: translate(10px);
+}
+
+.enlaces a{
+    width: 210px;
+    text-decoration: none;
+    color: #fcbf49;
+    font-size: 18px;
+    display: inline;
+    text-transform: uppercase;
+    border: solid 1px #fcbf49;
+    border-radius: 5px;
+    display: flex;
+    gap: auto;
+    margin: 5px;
+}
+
+.enlaces a:hover{
+    color: white;
+    background-color: #ffd166;
+}
+
+/*CONSULTORIO*/
+
+.consultorio div img{
+    width: 60%;
+    height: 20rem;
+    margin: 20px;
+    }
+
+.consultorio_dos div img{
+    width: 60%;
+    height: 17rem;
+    margin: 20px;
+    }
+    
+    .consultorio div h1{
+        color:#fcbf49;
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    
+    .consultorio div p{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+    }
+
+    .consultorio_dos div p{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+    }
+
+    /*NUTRICIÓN*/
+
+    .nutriplus{
+        display: grid;
+        grid-template-areas: 
+        "imagen"
+        "titulo"
+        "textouno"
+        "textodos"
+        "textotres"
+        "textocuatro"
+        "textocinco"
+        "textoseis"
+        "textosiete"
+        "textoocho"
+        "textonueve"
+        "textodiez"
+        "imagendos"
+        ;
+    }
+
+    .imagen{
+        grid-area: imagen;
+    }
+
+    .titulo{
+        grid-area: titulo;
+    }
+
+    .textouno{
+        grid-area: textouno;
+    }
+
+    .textodos{
+        grid-area: textodos;
+    }
+
+    .textotres{
+        grid-area: textotres;
+    }
+
+    .textocuatro{
+        grid-area: textocuatro;
+    }
+
+    .textocinco{
+        grid-area: textocinco;
+    }
+
+    .textoseis{
+        grid-area: textoseis;
+    }
+
+    .textosiete{
+        grid-area: textosiete;
+    }
+
+    .textoocho{
+        grid-area: textoocho;
+    }
+    
+    .textonueve{
+        grid-area: textonueve;
+    }
+
+    .textodiez{
+        grid-area: textodiez;
+    }
+
+    .imagen_dos{
+        grid-area: imagendos;
+    }
+
+    .nutriplus img{
+    width: 36%;
+    height: 50rem;
+    display: grid;
+    grid-template-areas: imagen;
+    }
+    
+    .nutriplus h1{
+        color:#fcbf49;
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: 100;
+        display: grid;
+        grid-template-areas: titulo;
+    }
+    
+    .nutriplus p{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+        display: grid;
+        grid-template-areas: texto;
+    }
+    
+    
+    /*SOBRE MÍ*/
+    .sobremi{
+        grid-template-areas: 
+        "imgsobremi"
+        "titulosobremi"
+        "textosobremi"
+        "textosobremidos"
+        "textosobremitres"
+        ;
+    }
+
+    .imgsobremi{
+        grid-area: imgsobremi;
+    }
+
+    .titulosobremi{
+        grid-area: titulosobremi;
+    }
+
+    .textosobremi{
+        grid-area: textosobremi;
+    }
+
+    .textosobremidos{
+        grid-area: textosobremidos;
+    }
+
+    .textosobremitres{
+        grid-area: textosobremitres;
+    }
+
+    .sobremi div img{
+    width: 100%;
+    height: 100%;
+    }
+    
+    .sobremi div h1{
+        color:black;
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    
+    .sobremi div p{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+    }
+    
+    table tfoot tr th{
+        color: #a7c957;
+        margin: 20px;
+        padding: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .formulario div{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+    }
+    
+    .formulario div h3{
+        color: #a7c957;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .pais div h3{
+        color: #a7c957;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .genero div label{
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    div input{
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 3px;
+        font-family: 'Montserrat', sans-serif;
+        border: solid 1px black;
+    }
+    
+    div select option{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    /*TIENDA*/
+    .tienda div h1{
+        color:white;
+        font-size: 50px;
+        font-weight: 100;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/tienda.jpg);
+        width: 100%;
+        height: 60vh;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .tienda p{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .productos_imagen{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        display: grid;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productos_imagen img{
+        width: 100%;
+        border-radius: 50px 50px;
+    }
+    
+    .productos div{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #a7c957;
+    border-radius: 50px;
+}
+    
+    .productos div a{
+        text-decoration: none;
+        background-color: #a7c957;
+        border-radius: 5px;
+        color: white;
+        padding: 3px;
+        transition-property: widht;
+        transition-duration: 1s;
+    }
+
+    .productos div a:hover{
+        color: #002400;
+    }
+
+    .productos div p{
+        margin-bottom: 8px;
+    }
+
+    /*GRIDS*/
+    .contenedor{
+        display: flex;
+        text-align: center;
+        gap: 10px;
+        display: grid;
+        /*FILAS*/
+        grid-template-rows: 200px 200px;
+        /*COLUMNAS*/
+        grid-template-columns: 50% 50%;
+    }
+
+    .consultorio{
+        display: flex;
+        text-align: center;
+        gap: 10px;
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .consultorio_dos{
+        display: flex;
+        text-align: center;
+        gap: 10px;
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    /*MEDIA QUERIES NUTRICIÓN*/
+
+    @media screen and (min-width: 320px){
+
+        .nutriplus{
+            width: 100%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+            grid-template-areas: 
+            "imagen"
+            "titulo"
+            "textouno"
+            "textodos"
+            "textotres"
+            "textocuatro"
+            "textocinco"
+            "textoseis"
+            "textosiete"
+            "textoocho"
+            "textonueve"
+            "textodiez"
+            "imagendos"
+            ;
+        }
+
+        .nutriplus img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 430px){
+
+        .nutriplus img{
+            width: 95%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 460px){
+
+        .nutriplus img{
+            width: 90%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 500px){
+
+        .nutriplus img{
+            width: 85%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 550px){
+
+        .nutriplus img{
+            width: 85%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 600px){
+
+        .nutriplus img{
+            width: 80%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 650px){
+
+        .nutriplus img{
+            width: 75%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 700px){
+
+        .nutriplus img{
+            width: 70%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 750px){
+
+        .nutriplus img{
+            width: 65%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 800px){
+
+        .nutriplus img{
+            width: 60%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 850px){
+
+        .nutriplus img{
+            width: 55%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 900px){
+
+        .nutriplus img{
+            width: 50%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 950px){
+
+        .nutriplus img{
+            width: 45%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1000px){
+
+        .nutriplus img{
+            width: 40%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1050px){
+
+        .nutriplus img{
+            width: 35%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1100px){
+
+        .nutriplus img{
+            width: 30%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1150px){
+
+        .nutriplus img{
+            width: 25%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px){
+
+        .nutriplus img{
+            width: 20%;
+            height: 100%;
+        }
+
+    }
+
+    /*MEDIA QUERIES SOBRE MÍ*/
+
+    @media screen and (min-width: 320px){
+        .sobremi{
+            width: 100%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+            grid-template-areas: 
+            "imgsobremi"
+            "titulosobremi"
+            "textosobremi"
+            "textosobremidos"
+            "textosobremitres"
+            ;
+        }
+
+        .sobremi img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 430px){
+        
+        .sobremi img{
+            width: 95%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 460px){
+        
+        .sobremi img{
+            width: 90%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 500px){
+
+        .sobremi img{
+            width: 85%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 550px){
+
+        .sobremi img{
+            width: 85%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 600px){
+
+        .sobremi img{
+            width: 80%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 650px){
+
+        .sobremi img{
+            width: 75%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 700px){
+
+        .sobremi img{
+            width: 70%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 750px){
+
+        .sobremi img{
+            width: 65%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 800px){
+
+        .sobremi img{
+            width: 60%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 850px){
+
+        .sobremi img{
+            width: 55%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 900px){
+
+        .sobremi img{
+            width: 50%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 950px){
+
+        .sobremi img{
+            width: 45%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1000px){
+
+        .sobremi img{
+            width: 40%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1050px){
+
+        .sobremi img{
+            width: 35%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1100px){
+
+        .sobremi img{
+            width: 30%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1150px){
+
+        .sobremi img{
+            width: 25%;
+            height: 100%;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px){
+
+        .sobremi img{
+            width: 20%;
+            height: 100%;
+        }
+
+    }
+
+    
