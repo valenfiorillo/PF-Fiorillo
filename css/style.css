@@ -338,7 +338,7 @@ footer img:hover{
     height: 100%;
     }
     
-    .sobremi div h1{
+    .titulosobremi{
         color:black;
         font-family: 'Montserrat', sans-serif;
         margin: 10px;
@@ -346,7 +346,23 @@ footer img:hover{
         font-weight: 100;
     }
     
-    .sobremi div p{
+    .textosobremi{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+    }
+
+    .textosobremidos{
+        color:black;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+    }
+
+    .textosobremitres{
         color:black;
         margin: 20px;
         font-size: 15px;
