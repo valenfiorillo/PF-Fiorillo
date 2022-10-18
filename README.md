@@ -1,5 +1,5 @@
 <h1 align="center">Hola🤝. Mi nombre es Valentina</h1>
-<h3 align="center">Ésta es mi segunda pre entrega del proyecto de Coderhouse</h3>
+<h3 align="center">Éste es mi perfil de github</h3>
 
 <p align="left"> <img src="https://komarev.com /ghpvc/?username=valenfiorillo&label=Profile%20views&color=0e75b6&style=flat" alt="valenfiorillo" /> </p>
 
