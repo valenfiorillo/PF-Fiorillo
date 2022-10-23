@@ -25,6 +25,10 @@ header a{
     font-size: 18px;
 }
 
+header nav{
+    background-color: white;
+}
+
 header nav ul{
     list-style: none;
     display: flex;
