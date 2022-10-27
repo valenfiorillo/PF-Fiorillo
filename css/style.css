@@ -863,11 +863,87 @@ footer img:hover{
     }
 
     @media (max-width:632px) and (min-width:320px){
+        .hero div h2{
+            font-size: 24px;
+        }
+
+        .informacion div h2{
+            font-size: 24px;
+        }
+
+        .info div h2{
+            font-size: 24px;
+        }
+
         .contenedor{
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
+
+        .hero div p{
+            margin: 4px;
+            width: auto;
+            height: auto;
+        }
+
+        .informacion div p{
+            margin: 4px;
+            width: auto;
+            height: auto;
+        }
+
+        .info div p{
+            margin: 4px;
+            width: auto;
+            height: auto;
+        }
     }
 
+    @media (max-width:1090px) and (min-width:633px){
+            .contenedor{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .hero div img{
+                width: 70%;
+                height: 50%;
+                padding: 20px;
+                display: flex;
+            }
+
+            .hero div p{
+                margin: 4px;
+                width: auto;
+                height: auto;
+            }
+
+            .informacion div img{
+                width: 70%;
+                height: 50%;
+                padding: 20px;
+            }
+    
+            .informacion div p{
+                margin: 4px;
+                width: auto;
+                height: auto;
+            }
+
+            .info div img{
+                width: 70%;
+                height: 50%;
+                padding: 20px;
+            }
+    
+            .info div p{
+                margin: 4px;
+                width: auto;
+                height: auto;
+            }
+        }
+    
     
