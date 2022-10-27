@@ -135,6 +135,8 @@ footer h2{
 }
 
 footer img{
+    display: flex;
+    flex-direction: row;
     margin: 10px;
     padding: 10px;
     transition: 1s;
@@ -142,25 +144,6 @@ footer img{
 
 footer img:hover{
     transform: translate(10px);
-}
-
-.enlaces a{
-    width: 210px;
-    text-decoration: none;
-    color: #fcbf49;
-    font-size: 18px;
-    display: inline;
-    text-transform: uppercase;
-    border: solid 1px #fcbf49;
-    border-radius: 5px;
-    display: flex;
-    gap: auto;
-    margin: 5px;
-}
-
-.enlaces a:hover{
-    color: white;
-    background-color: #ffd166;
 }
 
 /*CONSULTORIO*/
@@ -883,12 +866,18 @@ footer img:hover{
         .hero{
             display: flex;
             justify-content: center;
-            text-align: center;
+            margin: 40px;
         }
 
-        .hero p{
+        .informacion{
             display: flex;
-            flex-direction: column;
-            text-align: center;
+            justify-content: center;
+            margin: 40px;
+        }
+
+        .info{
+            display: flex;
+            justify-content: center;
+            margin: 40px;
         }
     }
