@@ -1033,7 +1033,25 @@ footer img:hover{
             }
         }
 
-        @media (max-width:454px) and (min-width:320px){
+        @media (max-width:454px) and (min-width:411px){
+            .tienda div h1{
+                font-size:22px;
+            }
+        }
+
+        @media (max-width:411px) and (min-width:377px){
+            .tienda div h1{
+                font-size:20px;
+            }
+        }
+
+        @media (max-width:377px) and (min-width:343px){
+            .tienda div h1{
+                font-size:18px;
+            }
+        }
+
+        @media (max-width:343px) and (min-width:320px){
             .tienda div h1{
                 font-size:17px;
             }
