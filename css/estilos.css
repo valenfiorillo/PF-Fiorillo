@@ -33,6 +33,49 @@
 .textosobremitres {
   grid-area: textosobremitres; }
 
+.nutriplus {
+  display: grid;
+  grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+
+.imagen {
+  grid-area: imagen; }
+
+.titulo {
+  grid-area: titulo; }
+
+.textouno {
+  grid-area: textouno; }
+
+.textodos {
+  grid-area: textodos; }
+
+.textotres {
+  grid-area: textotres; }
+
+.textocuatro {
+  grid-area: textocuatro; }
+
+.textocinco {
+  grid-area: textocinco; }
+
+.textoseis {
+  grid-area: textoseis; }
+
+.textosiete {
+  grid-area: textosiete; }
+
+.textoocho {
+  grid-area: textoocho; }
+
+.textonueve {
+  grid-area: textonueve; }
+
+.textodiez {
+  grid-area: textodiez; }
+
+.imagen_dos {
+  grid-area: imagendos; }
+
 /*MEDIA QUERIES NUTRICIÓN*/
 @media screen and (min-width: 320px) {
   .nutriplus {
@@ -1853,56 +1896,29 @@ main .productos div p {
   .tienda div h1 {
     font-size: 17px; } }
 
-main .nutriplus {
+main .nutriplus img {
+  width: 36%;
+  height: 50rem;
   display: grid;
-  grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
-  main .nutriplus .imagen {
-    grid-area: imagen; }
-  main .nutriplus .titulo {
-    grid-area: titulo; }
-  main .nutriplus .textouno {
-    grid-area: textouno; }
-  main .nutriplus .textodos {
-    grid-area: textodos; }
-  main .nutriplus .textotres {
-    grid-area: textotres; }
-  main .nutriplus .textocuatro {
-    grid-area: textocuatro; }
-  main .nutriplus .textocinco {
-    grid-area: textocinco; }
-  main .nutriplus .textoseis {
-    grid-area: textoseis; }
-  main .nutriplus .textosiete {
-    grid-area: textosiete; }
-  main .nutriplus .textoocho {
-    grid-area: textoocho; }
-  main .nutriplus .textonueve {
-    grid-area: textonueve; }
-  main .nutriplus .textodiez {
-    grid-area: textodiez; }
-  main .nutriplus .imagen_dos {
-    grid-area: imagendos; }
-  main .nutriplus img {
-    width: 36%;
-    height: 50rem;
-    display: grid;
-    grid-template-areas: imagen; }
-  main .nutriplus h1 {
-    color: #fcbf49;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px;
-    font-size: 30px;
-    font-weight: 100;
-    display: grid;
-    grid-template-areas: titulo; }
-  main .nutriplus p {
-    color: black;
-    margin: 20px;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 25px;
-    display: grid;
-    grid-template-areas: texto; }
+  grid-template-areas: imagen; }
+
+main .nutriplus h1 {
+  color: #fcbf49;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 100;
+  display: grid;
+  grid-template-areas: titulo; }
+
+main .nutriplus p {
+  color: black;
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  display: grid;
+  grid-template-areas: texto; }
 
 /*MEDIA QUERIES NUTRICIÓN*/
 @media screen and (min-width: 320px) {

@@ -46,3 +46,75 @@
     .textosobremitres{
         grid-area: textosobremitres;
     }
+
+    .nutriplus{
+        display: grid;
+        grid-template-areas: 
+        "imagen"
+        "titulo"
+        "textouno"
+        "textodos"
+        "textotres"
+        "textocuatro"
+        "textocinco"
+        "textoseis"
+        "textosiete"
+        "textoocho"
+        "textonueve"
+        "textodiez"
+        "imagendos"
+        ;
+    }
+
+        .imagen{
+            grid-area: imagen;
+        }
+    
+        .titulo{
+            grid-area: titulo;
+        }
+    
+        .textouno{
+            grid-area: textouno;
+        }
+    
+        .textodos{
+            grid-area: textodos;
+        }
+    
+        .textotres{
+            grid-area: textotres;
+        }
+    
+        .textocuatro{
+            grid-area: textocuatro;
+        }
+    
+        .textocinco{
+            grid-area: textocinco;
+        }
+    
+        .textoseis{
+            grid-area: textoseis;
+        }
+    
+        .textosiete{
+            grid-area: textosiete;
+        }
+    
+        .textoocho{
+            grid-area: textoocho;
+        }
+        
+        .textonueve{
+            grid-area: textonueve;
+        }
+    
+        .textodiez{
+            grid-area: textodiez;
+        }
+    
+        .imagen_dos{
+            grid-area: imagendos;
+        }
+    
