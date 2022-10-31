@@ -1,1 +1,73 @@
 @import "../base/variable";
+@import "../base/media-query";
+
+main {
+    .tienda {
+        div h1 {
+            color: white;
+            font-size: 50px;
+            font-weight: 100;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../img/tienda.jpg);
+            width: 100%;
+            height: 60vh;
+            margin: 5px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        p {
+            color: black;
+            margin: 20px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+    .productos_imagen{
+            width: 350px;
+            height: 350px;
+            display: flex;
+            display: grid;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 100%;
+                border-radius: 50px 50px;
+            }
+        }
+        
+        .productos{
+        div{
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            border: 1px solid $color-green;
+            border-radius: 50px;
+        
+
+            a{
+                text-decoration: none;
+                background-color: $color-green;
+                border-radius: 5px;
+                color: white;
+                padding: 3px;
+                transition-property: widht;
+                transition-duration: 1s;
+                &:hover{
+                    color: #002400;
+                }
+            }
+        }
+
+        div p{
+            margin-bottom: 8px;
+        }
+    }
+}

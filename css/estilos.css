@@ -33,6 +33,329 @@
 .textosobremitres {
   grid-area: textosobremitres; }
 
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -59,6 +382,329 @@ header {
         header nav ul li a:hover {
           color: white !important;
           background-color: #fcbf49; }
+
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
 
 main .principal {
   color: white;
@@ -136,6 +782,329 @@ main .info p {
   display: flex;
   align-content: center; }
 
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
+
 main .consultorio {
   display: flex;
   text-align: center;
@@ -183,6 +1152,706 @@ main .consultorio_dos {
     width: 60%;
     height: 17rem;
     margin: 20px; }
+
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
+
+main .tienda div h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/tienda.jpg);
+  width: 100%;
+  height: 60vh;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+main .tienda p {
+  color: black;
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; }
+
+main .productos_imagen {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  main .productos_imagen img {
+    width: 100%;
+    border-radius: 50px 50px; }
+
+main .productos div {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #a7c957;
+  border-radius: 50px; }
+  main .productos div a {
+    text-decoration: none;
+    background-color: #a7c957;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    transition-property: widht;
+    transition-duration: 1s; }
+    main .productos div a:hover {
+      color: #002400; }
+
+main .productos div p {
+  margin-bottom: 8px; }
+
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
 
 main .nutriplus {
   display: grid;
@@ -234,6 +1903,329 @@ main .nutriplus {
     line-height: 25px;
     display: grid;
     grid-template-areas: texto; }
+
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
 
 main .sobremi div img {
   width: 100%;
@@ -308,6 +2300,329 @@ main .coment {
   color: #a7c957;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif; }
+
+/*MEDIA QUERIES NUTRICIÓN*/
+@media screen and (min-width: 320px) {
+  .nutriplus {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 950px 12,5rem 12,5rem 25rem 12,5rem 12,5rem 6,25rem 6,25rem 230px 12,5rem 51,25rem;
+    grid-template-areas: "imagen" "titulo" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis" "textosiete" "textoocho" "textonueve" "textodiez" "imagendos"; }
+  .nutriplus img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .nutriplus img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .nutriplus img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .nutriplus img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .nutriplus img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .nutriplus img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .nutriplus img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .nutriplus img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nutriplus img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .nutriplus img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .nutriplus img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .nutriplus img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .nutriplus img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .nutriplus img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .nutriplus img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .nutriplus img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .nutriplus img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES SOBRE MÍ*/
+@media screen and (min-width: 320px) {
+  .sobremi {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 51,25rem 6,25rem 12,5rem 12,5rem 12,5rem;
+    grid-template-areas: "imgsobremi" "titulosobremi" "textosobremi" "textosobremidos" "textosobremitres"; }
+  .sobremi img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (min-width: 430px) {
+  .sobremi img {
+    width: 95%;
+    height: 100%; } }
+
+@media screen and (min-width: 460px) {
+  .sobremi img {
+    width: 90%;
+    height: 100%; } }
+
+@media screen and (min-width: 500px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 550px) {
+  .sobremi img {
+    width: 85%;
+    height: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .sobremi img {
+    width: 80%;
+    height: 100%; } }
+
+@media screen and (min-width: 650px) {
+  .sobremi img {
+    width: 75%;
+    height: 100%; } }
+
+@media screen and (min-width: 700px) {
+  .sobremi img {
+    width: 70%;
+    height: 100%; } }
+
+@media screen and (min-width: 750px) {
+  .sobremi img {
+    width: 65%;
+    height: 100%; } }
+
+@media screen and (min-width: 800px) {
+  .sobremi img {
+    width: 60%;
+    height: 100%; } }
+
+@media screen and (min-width: 850px) {
+  .sobremi img {
+    width: 55%;
+    height: 100%; } }
+
+@media screen and (min-width: 900px) {
+  .sobremi img {
+    width: 50%;
+    height: 100%; } }
+
+@media screen and (min-width: 950px) {
+  .sobremi img {
+    width: 45%;
+    height: 100%; } }
+
+@media screen and (min-width: 1000px) {
+  .sobremi img {
+    width: 40%;
+    height: 100%; } }
+
+@media screen and (min-width: 1050px) {
+  .sobremi img {
+    width: 35%;
+    height: 100%; } }
+
+@media screen and (min-width: 1100px) {
+  .sobremi img {
+    width: 30%;
+    height: 100%; } }
+
+@media screen and (min-width: 1150px) {
+  .sobremi img {
+    width: 25%;
+    height: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .sobremi img {
+    width: 20%;
+    height: 100%; } }
+
+/*MEDIA QUERIES INDEX*/
+@media (max-width: 632px) and (min-width: 320px) {
+  .principal {
+    display: none; } }
+
+@media (max-width: 632px) and (min-width: 320px) {
+  .hero div h2 {
+    font-size: 24px; }
+  .informacion div h2 {
+    font-size: 24px; }
+  .info div h2 {
+    font-size: 24px; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+@media (max-width: 1090px) and (min-width: 633px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    display: flex; }
+  .hero div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .informacion div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .informacion div p {
+    margin: 4px;
+    width: auto;
+    height: auto; }
+  .info div img {
+    width: 70%;
+    height: 50%;
+    padding: 20px; }
+  .info div p {
+    margin: 4px;
+    width: auto;
+    height: auto; } }
+
+/*MEDIA QUERIES CONSULTORIO*/
+@media (max-width: 660px) and (min-width: 320px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 90%;
+    height: 90%; }
+  .consultorio_dos div img {
+    width: 90%;
+    height: 90%; } }
+
+@media (max-width: 1020px) and (min-width: 661px) {
+  .consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio_dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .consultorio div img {
+    width: 70%;
+    height: 70%; }
+  .consultorio_dos div img {
+    width: 70%;
+    height: 70%; } }
+
+/*MEDIA QUERIES TIENDA*/
+@media (max-width: 891px) and (min-width: 717px) {
+  .tienda div h1 {
+    font-size: 40px; } }
+
+@media (max-width: 716px) and (min-width: 630px) {
+  .tienda div h1 {
+    font-size: 35px; } }
+
+@media (max-width: 629px) and (min-width: 542px) {
+  .tienda div h1 {
+    font-size: 30px; } }
+
+@media (max-width: 542px) and (min-width: 454px) {
+  .tienda div h1 {
+    font-size: 25px; } }
+
+@media (max-width: 454px) and (min-width: 411px) {
+  .tienda div h1 {
+    font-size: 22px; } }
+
+@media (max-width: 411px) and (min-width: 377px) {
+  .tienda div h1 {
+    font-size: 20px; } }
+
+@media (max-width: 377px) and (min-width: 343px) {
+  .tienda div h1 {
+    font-size: 18px; } }
+
+@media (max-width: 343px) and (min-width: 320px) {
+  .tienda div h1 {
+    font-size: 17px; } }
 
 footer .social {
   display: flex;
