@@ -1,5 +1,4 @@
 @import "../base/variable";
-@import "../base/media-query";
 
 main {
     .sobremi {
@@ -64,7 +63,7 @@ main {
             text-align: left;
 
             h3 {
-                color: #a7c957;
+                color: nth($colores,2);
                 font-size: 15px;
                 font-family: 'Montserrat', sans-serif;
             }

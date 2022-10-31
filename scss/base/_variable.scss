@@ -1,2 +1,21 @@
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.social{ 
+    @include flex (column, center, center);
+}
+
 $color-orange: #fcbf49;
 $color-green: #a7c957;
+
+$colores: #fcbf49,
+    #a7c957,
+    #002400,
+    black,
+    white,
+
+    

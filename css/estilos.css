@@ -1896,13 +1896,13 @@ main .productos div p {
   .tienda div h1 {
     font-size: 17px; } }
 
-main .nutriplus img {
+main section .nutriplus img {
   width: 36%;
   height: 50rem;
   display: grid;
   grid-template-areas: imagen; }
 
-main .nutriplus h1 {
+main section .nutriplus h1 {
   color: #fcbf49;
   font-family: 'Montserrat', sans-serif;
   margin: 10px;
@@ -1911,7 +1911,7 @@ main .nutriplus h1 {
   display: grid;
   grid-template-areas: titulo; }
 
-main .nutriplus p {
+main section .nutriplus p {
   color: black;
   margin: 20px;
   font-size: 15px;
