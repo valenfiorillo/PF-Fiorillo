@@ -1,3 +1,5 @@
+@import "../base/variable";
+
 main {
     .principal {
         color: white;
@@ -18,7 +20,7 @@ main {
 
     .hero {
         div h2 {
-            color: #fcbf49;
+            color: $color-orange;
             font-size: 30px;
             font-weight: 100;
             font-family: 'Montserrat', sans-serif;
@@ -42,7 +44,7 @@ main {
 
         .informacion{
             div h2{
-                color: #fcbf49;
+                color: $color-orange;
                 font-size: 30px;
                 font-weight: 100;
                 font-family: 'Montserrat', sans-serif;
@@ -67,7 +69,7 @@ main {
 
     .info{
        div h2{
-            color: #fcbf49;
+            color: $color-orange;
             font-size: 30px;
             font-weight: 100;
             font-family: 'Montserrat', sans-serif;

@@ -1,3 +1,5 @@
+@import "../base/variable";
+
 main{
     .nutriplus{
         display: grid;
@@ -77,7 +79,7 @@ main{
             }
 
         h1{
-                color:#fcbf49;
+                color:$color-orange;
                 font-family: 'Montserrat', sans-serif;
                 margin: 10px;
                 font-size: 30px;
