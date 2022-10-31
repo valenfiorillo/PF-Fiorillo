@@ -1,38 +1,108 @@
 @import "../base/variable";
 
-main{
-    .sobremi{
-        grid-template-areas: 
-        "imgsobremi"
-        "titulosobremi"
-        "textosobremi"
-        "textosobremidos"
-        "textosobremitres"
-        ;
-
-        .imgsobremi{
-            grid-area: imgsobremi;
-        }
-    
-        .titulosobremi{
-            grid-area: titulosobremi;
-        }
-    
-        .textosobremi{
-            grid-area: textosobremi;
-        }
-    
-        .textosobremidos{
-            grid-area: textosobremidos;
-        }
-    
-        .textosobremitres{
-            grid-area: textosobremitres;
-        }
-
-        img{
+main {
+    .sobremi {
+        div img {
             width: 100%;
             height: 100%;
+        }
+
+        .titulosobremi {
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px;
+            font-size: 23px;
+            font-weight: 100;
+        }
+
+        .textosobremi {
+            color: black;
+            margin: 20px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 25px;
+        }
+
+        .textosobremidos {
+            color: black;
+            margin: 20px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 25px;
+        }
+
+        .textosobremitres {
+            color: black;
+            margin: 20px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 25px;
+        }
+    }
+
+    table {
+        tfoot {
+            tr {
+                th {
+                    color: $color-green;
+                    margin: 20px;
+                    padding: 20px;
+                    font-size: 15px;
+                    font-family: 'Montserrat', sans-serif;
+                }
             }
+        }
     }
+
+    .formulario {
+        div {
+            color: black;
+            margin: 20px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: left;
+
+            h3 {
+                color: #a7c957;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
     }
+
+    .pais {
+        div{
+            h3{
+            color: $color-green;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            }
+            select{
+                option{
+                font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+    
+    .genero{
+        div label{
+            margin: 10px;
+            padding: 20px;
+        }
+    }
+
+    div input {
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 3px;
+        font-family: 'Montserrat', sans-serif;
+        border: solid 1px black;
+    }
+
+    .coment {
+        color: $color-green;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

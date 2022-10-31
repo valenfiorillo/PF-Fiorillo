@@ -16,3 +16,33 @@
     /*COLUMNAS*/
     grid-template-columns: 50% 50%;
 }
+
+.sobremi {
+    grid-template-areas:
+        "imgsobremi"
+        "titulosobremi"
+        "textosobremi"
+        "textosobremidos"
+        "textosobremitres"
+    ;
+}
+
+    .imgsobremi{
+        grid-area: imgsobremi;
+    }
+
+    .titulosobremi{
+        grid-area: titulosobremi;
+    }
+
+    .textosobremi{
+        grid-area: textosobremi;
+    }
+
+    .textosobremidos{
+        grid-area: textosobremidos;
+    }
+
+    .textosobremitres{
+        grid-area: textosobremitres;
+    }
