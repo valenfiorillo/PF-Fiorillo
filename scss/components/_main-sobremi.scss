@@ -1,0 +1,36 @@
+main{
+    .sobremi{
+        grid-template-areas: 
+        "imgsobremi"
+        "titulosobremi"
+        "textosobremi"
+        "textosobremidos"
+        "textosobremitres"
+        ;
+
+        .imgsobremi{
+            grid-area: imgsobremi;
+        }
+    
+        .titulosobremi{
+            grid-area: titulosobremi;
+        }
+    
+        .textosobremi{
+            grid-area: textosobremi;
+        }
+    
+        .textosobremidos{
+            grid-area: textosobremidos;
+        }
+    
+        .textosobremitres{
+            grid-area: textosobremitres;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            }
+    }
+    }

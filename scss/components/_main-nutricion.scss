@@ -1,0 +1,99 @@
+main{
+    .nutriplus{
+        display: grid;
+        grid-template-areas: 
+        "imagen"
+        "titulo"
+        "textouno"
+        "textodos"
+        "textotres"
+        "textocuatro"
+        "textocinco"
+        "textoseis"
+        "textosiete"
+        "textoocho"
+        "textonueve"
+        "textodiez"
+        "imagendos"
+        ;
+
+        .imagen{
+            grid-area: imagen;
+        }
+    
+        .titulo{
+            grid-area: titulo;
+        }
+    
+        .textouno{
+            grid-area: textouno;
+        }
+    
+        .textodos{
+            grid-area: textodos;
+        }
+    
+        .textotres{
+            grid-area: textotres;
+        }
+    
+        .textocuatro{
+            grid-area: textocuatro;
+        }
+    
+        .textocinco{
+            grid-area: textocinco;
+        }
+    
+        .textoseis{
+            grid-area: textoseis;
+        }
+    
+        .textosiete{
+            grid-area: textosiete;
+        }
+    
+        .textoocho{
+            grid-area: textoocho;
+        }
+        
+        .textonueve{
+            grid-area: textonueve;
+        }
+    
+        .textodiez{
+            grid-area: textodiez;
+        }
+    
+        .imagen_dos{
+            grid-area: imagendos;
+        }
+
+        img{
+            width: 36%;
+            height: 50rem;
+            display: grid;
+            grid-template-areas: imagen;
+            }
+
+        h1{
+                color:#fcbf49;
+                font-family: 'Montserrat', sans-serif;
+                margin: 10px;
+                font-size: 30px;
+                font-weight: 100;
+                display: grid;
+                grid-template-areas: titulo;
+            }
+
+            p{
+                color:black;
+                margin: 20px;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 25px;
+                display: grid;
+                grid-template-areas: texto;
+            }
+    }
+}
