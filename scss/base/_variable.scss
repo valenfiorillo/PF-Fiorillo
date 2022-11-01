@@ -1,6 +1,5 @@
 @mixin flex ($flex, $justify, $align){
     display: $flex;
-    flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
 }
@@ -17,5 +16,4 @@ $colores: #fcbf49,
     #002400,
     black,
     white,
-
-    
+    orange,

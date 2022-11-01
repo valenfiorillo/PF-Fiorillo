@@ -1,9 +1,10 @@
 @import "../base/variable";
 
 main {
+    .nuplus{
+        
     .nutriplus {
-
-        img{
+        .img{
             width: 36%;
             height: 50rem;
             display: grid;
@@ -30,4 +31,5 @@ main {
             grid-template-areas: texto;
         }
     }
+}
 }
