@@ -354,7 +354,7 @@
 /*MEDIA QUERIES INDEX*/
 
 @media (max-width:632px) and (min-width:320px){
-    .principal{
+    main .principal{
         display: none;
     }
 }
@@ -446,52 +446,52 @@
     /*MEDIA QUERIES CONSULTORIO*/
 
     @media (max-width:660px) and (min-width:320px){
-        .consultorio{
+        main .consultorio{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .consultorio_dos{
+        main .consultorio_dos{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .consultorio div img{
+        main .consultorio div img{
             width: 90%;
             height: 90%;
         }
 
-        .consultorio_dos div img{
+        main .consultorio_dos img{
             width: 90%;
             height: 90%;
         }
     }
 
     @media (max-width:1020px) and (min-width:661px){
-        .consultorio{
+        main .consultorio{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .consultorio_dos{
+        main .consultorio_dos{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .consultorio div img{
+        main .consultorio div img{
             width: 70%;
             height: 70%;
         }
 
-        .consultorio_dos div img{
+        main .consultorio_dos div img{
             width: 70%;
             height: 70%;
         }
